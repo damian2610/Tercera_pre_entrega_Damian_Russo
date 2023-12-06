@@ -1,0 +1,139 @@
+.navEncabezado {
+  background-color: rgb(82, 2, 98);
+}
+
+.central {
+  container: flex;
+  background-color: aqua;
+  height: 200px;
+}
+
+.cFooter {
+  height: 10%;
+}
+
+h5 {
+  font-size: 1rem;
+  color: rgb(11, 11, 245);
+}
+
+i {
+  font-size: 1rem;
+  color: rgb(11, 11, 245);
+}
+
+a {
+  font-size: 1pc;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.first_col {
+  background-color: white;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  width: 550px;
+  left: 155px;
+  top: 171px;
+  border-radius: 20px;
+}
+
+.img-fluid {
+  border-radius: 20px;
+}
+
+.row-last {
+  width: 60% !important;
+  position: relative !important;
+  left: 350px;
+  top: 50px;
+  height: 200px;
+  padding-bottom: 100px !important;
+  background-color: #c1b688;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: #c1b688;
+  border: #c1b688;
+}
+
+.btn-primary:hover {
+  background-color: black !important;
+}
+
+.form-control {
+  height: 52px;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #c1b688;
+}
+
+.form-control[type=text]:focus {
+  border: 2px solid #555;
+}
+
+/*HEADER*/
+.tamLogo {
+  width: 150px;
+}
+
+.fuentesNav {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.encabezado {
+  /* background-color: bisque; */
+  border-top: solid 20px #c1101a;
+}
+
+nav li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 15px;
+  color: gray;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  padding: 0 15px;
+}
+
+a:hover {
+  background-color: #ecbec1;
+  color: #fafafa;
+}
+
+/* PRODUCTOS */
+.tituloProductos {
+  background-color: #c1101a;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.tituloProductos h2 {
+  font-size: 35px;
+}
+
+/*CARDS*/
+.colorBtn {
+  background-color: #c1101a;
+  color: #fafafa;
+  font-size: 18px;
+}
+
+.colorBtn:hover {
+  background-color: red;
+  color: #fafafa;
+}
+
+/*# sourceMappingURL=estilo.css.map */
