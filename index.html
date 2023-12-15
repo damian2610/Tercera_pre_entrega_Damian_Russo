@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidraulica educativa</title>
+    <meta name="description" content="Hidraulica educativa es una plataforma de cursos online y prencensiales para elevar el conocimiento de las personas en oleo hidraulica, sin importar el lugar donde esten.">
+    <title>Hidraulica educativa | Rompiendo limites</title>
 
     <!--CSS BS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -14,10 +15,10 @@
 
 </head>
 
-<body class="container-fluid">
+<body class="container">
 
-    <nav class="navbar navbar-expand-lg navEncabezado " >
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navEncabezado navbar-dark " >
+        <div class="container-fluid ">
             <img src="/img/logo hidraulica educativa.png" class="claseLogo" alt="Logo Hidraulica Educativa">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,86 +46,110 @@
         </div>
       </nav>
 
+<!-- BANNER -->
+
+<header>
+  <div class="banner">
+    <div class="texto_banner">
+      <h1>Hidraulica educativa</h1>
+      <p>Somos una institucion educativa, centrada en el desarrollo del estudiante, por medio de las clases virtuales. Nuestra idea es que para aprender no existen fronteras y la diversidad ayuda al aprendisaje de todos.</p>
+    </div>
+  </div> 
+</header>
+
  <!-- CARDS -->
+<div class="container pt-3 pb-3 ">
 
  <div class="row ">
-
-  <div class="card col-xl-3 col-md-3 col-sm-12 ">
-      <img src="/img/mini.jpg" class="card-img-top" alt="mini">
+    <h2 class="text-center mb-2 font-monospace text-primary textcard text-white">Cursos destacados
+    </h2>
+  <div class="card col-md-4 sm-auto cardinicio ">
+      <img src="/img/mini.jpg" class="card-img-top imgcad" alt="mini">
       <div class="card-body">
           <h5 class="card-title">Curso</h5>
-          <p class="card-text">MIni centrales.</p>
-          <button type="button" class="btn colorBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <p class="card-text">Mini centrales.</p>
+          <button type="button" class="botonCar" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Comprar
           </button>
       </div>
   </div>
 
-  <div class="card col-xl-3 col-md-3 col-sm-12">
-      <img src="/img/basica.jpg" class="card-img-top" alt="basico">
+  <div class="card col-md-4 sm-auto cardinicio ">
+      <img src="/img/basica.jpg" class="card-img-top imgcad" alt="basico">
       <div class="card-body">
           <h5 class="card-title">Curso</h5>
           <p class="card-text">Hidraulica basica.</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="botonCar" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Comprar
           </button>
       </div>
   </div>
 
-  <div class="card col-xl-3 col-md-3 col-sm-12">
-      <img src="/img/avanzada.jpg" class="card-img-top" alt="avanzado">
+  <div class="card col-md-4 sm-auto cardinicio">
+      <img src="/img/avanzada.jpg" class="card-img-top imgcad" alt="avanzado">
       <div class="card-body">
           <h5 class="card-title">Curso</h5>
           <p class="card-text">Hidraulica avanzada.</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="botonCar" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Comprar
           </button>
       </div>
   </div>
+</div>
+
+<!--TARJETAS -->
+<div class="container">
+    <div class="container text-center text-md-start cFooter">
+        <div class="row text-center text-md-start pt-3 pb-3 ">
+            <div class="text-center mb-1 text-white texttarjetas"><p> <h2>Todos los cursos con certificados</h2></p></div>   
+              <div class="card col-xl-6 col-md-6 col-sm-auto">
+              <h2 class="text-center mb-2 font-monospace text-primary"><br><br> <br>Certificados 100% online.
+              </h2>
+              <h4 class="text-center mb-2 font-monospace text-primary">Cuando el alumno finaliza el curso, tiene que rendir un exmenen de conocimientos para poder obtener el certificado del mismo.
+              </h4>
+              </div>
+        <a href="#" class="card col-xl-6 col-md-6 col-sm-auto"> <img src="/img/certificado.jpg" alt="Imagen certificado" class="footLogo"></a> 
+        </div>
+    </div>
+</div>
+
+
 
 
 <!--FOOTER-->
 
-    <footer class="bg-dark text-white pt-1 pb-1  ">
-        <div class="container text-center text-md-start cFooter">
-           <div class="row text-center text-md-start}">
-            <div class="col.md-2 col-lg-2 col-xl-2 mx-auto-mt-2">
-            <a href="#" class="col-3 text-rest text-uppercase d-flex align-items-center"> <img src="/img/logo hidraulica educativa.png" alt="logo" class="footLogo mr-2"></a>  
+    <footer class="bg-dark text-white pt-3 pb-3  ">
+        <div class="container fluid text-center text-md-start cFooter">
+           <div class="row text-center text-md-start">
+            <div class="col-md-4 sm-auto">
+                <img src="/img/logo hidraulica educativa.png" class="claseLogo" alt="Logo Hidraulica Educativa">  
            </div>
    
-           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
-            <h5 class="text-center mb-4 font-monospace text-primary">Hidraulica Educativa
+           <div class="col-md-4 sm-auto">
+            <h5 class="text-center mb-4 font-monospace text-primary">Recursos
             </h5>
             <hr class="mb-1">
             <p>
-              <a href="#" class="text-white">Inicio</a>
+              <a href="#" class="text-white">Capacitaciones empresariales</a>
             </p>
             <p>
-              <a href="#" class="text-white">Cursos</a>
+              <a href="#" class="text-white">Trabaja con nosotros</a>
             </p>
-            <p>
-              <a href="#" class="text-white">Descargas</a>
-            </p>
-            <p>
-              <a href="#" class="text-white">Historia</a>
-            </p>
-            <p>
-              <a href="#" class="text-white">Contacto</a>
-            </p>
+            
            </div>
 
-           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
+           <div class="col-md-4 sm-auto">
             <h5 class="text-center mb-4 font-monospace text-primary">Contactenos
             </h5>
             <hr class="mb-1">
             <p>
-                <ul class="bi bi-whatsapp">+54911.....</ul>
+                <ul class="bi bi-whatsapp">  +54911.....</ul>
             </p>
             <p>
-              <ul class="bi bi-watch">De 8 a 20 Hs</ul>
+              <ul class="bi bi-watch">  De 8 a 20 Hs</ul>
             </p>
             <p>
-              <ul class="bi bi-envelope-at">hidraulicaeducativa@gmail.com</ul>
+              <ul class="bi bi-envelope-at">  hidraulicaeducativa@gmail.com</ul>
             </p>
           
            </div>
